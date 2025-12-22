@@ -3,7 +3,10 @@ import './App.css'
 
 import Buttons from './components/Buttons'
 import TypographyCom from './components/Typography'
-import TextField from './components/TextField'
+import TextFieldExa from './components/TextField'
+import SelectComponent from './components/Select'
+import MuiRadioButtons from './components/MuiRadioButtons'
+import MUICheckbox from './components/MUICheckbox'
 
 function App() {
 
@@ -12,7 +15,10 @@ function App() {
       <div>MI</div>
       {/* <Buttons /> */}
       {/* <TypographyCom /> */}
-      <TextField />
+      {/* <TextFieldExa /> */}
+      {/* <SelectComponent /> */}
+      {/* <MuiRadioButtons /> */}
+      <MUICheckbox />
     </>
   )
 }
