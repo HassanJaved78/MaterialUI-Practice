@@ -1,24 +1,38 @@
 import { useState } from 'react'
 import './App.css'
 
-import Buttons from './components/Buttons'
-import TypographyCom from './components/Typography'
-import TextFieldExa from './components/TextField'
-import SelectComponent from './components/Select'
-import MuiRadioButtons from './components/MuiRadioButtons'
-import MUICheckbox from './components/MUICheckbox'
+import Buttons from './components/Inputs/Buttons'
+import TypographyCom from './components/Inputs/Typography'
+import TextFieldExa from './components/Inputs/TextField'
+import SelectComponent from './components/Inputs/Select'
+import MuiRadioButtons from './components/Inputs/MuiRadioButtons'
+import MUICheckbox from './components/Inputs/MUICheckbox'
+import MuiSwitch from './components/Inputs/Switch'
+import MUIRating from './components/Inputs/Rating'
+import MUIAutocomplete from './components/Inputs/Autocomplete'
+import MUIGrid from './components/Layouts/MUIGrid'
+import MUIImageList from './components/Layouts/ImageList'
 
 function App() {
 
   return (
     <>
       <div>MI</div>
-      {/* <Buttons /> */}
-      {/* <TypographyCom /> */}
-      {/* <TextFieldExa /> */}
-      {/* <SelectComponent /> */}
-      {/* <MuiRadioButtons /> */}
-      <MUICheckbox />
+      {/* Inputs */}
+        {/* <Buttons /> */}
+        {/* <TypographyCom /> */}
+        {/* <TextFieldExa /> */}
+        {/* <SelectComponent /> */}
+        {/* <MuiRadioButtons /> */}
+        {/* <MUICheckbox /> */}
+        {/* <MuiSwitch /> */}
+        {/* <MUIRating /> */}
+        {/* <MUIAutocomplete /> */}
+
+      {/* Layouts */}
+      {/* <MUIGrid /> */}
+      <MUIImageList />
+
     </>
   )
 }
