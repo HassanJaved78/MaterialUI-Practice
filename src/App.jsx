@@ -12,6 +12,11 @@ import MUIRating from './components/Inputs/Rating'
 import MUIAutocomplete from './components/Inputs/Autocomplete'
 import MUIGrid from './components/Layouts/MUIGrid'
 import MUIImageList from './components/Layouts/ImageList'
+import MUIPaper from './components/Surfaces/MUIPaper'
+import MUICard from './components/Surfaces/MUICard'
+import MUIAccordion from './components/Surfaces/Accordion'
+import MUILink from './components/Navigation/Link'
+import MUIBreakcrumbs from './components/Navigation/BreadCrumbs'
 
 function App() {
 
@@ -30,8 +35,18 @@ function App() {
         {/* <MUIAutocomplete /> */}
 
       {/* Layouts */}
-      {/* <MUIGrid /> */}
-      <MUIImageList />
+        {/* <MUIGrid /> */}
+        {/* <MUIImageList /> */}
+
+      {/* Surfaces */}
+        {/* <MUIPaper /> */}
+        {/* <MUICard /> */}
+        {/* <MUIAppBar /> */}
+        {/* <MUIAccordion /> */}
+
+      {/* Navigation */}
+      {/* <MUILink /> */}
+      <MUIBreakcrumbs />
 
     </>
   )
