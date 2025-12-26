@@ -17,6 +17,16 @@ import MUICard from './components/Surfaces/MUICard'
 import MUIAccordion from './components/Surfaces/Accordion'
 import MUILink from './components/Navigation/Link'
 import MUIBreakcrumbs from './components/Navigation/BreadCrumbs'
+import MUIDrawer from './components/Navigation/Drawer'
+import MUISpeedDial from './components/Navigation/SpeedDial'
+import MUIBottomNavigation from './components/Navigation/BottomNavigation'
+import MUIPagination from './components/Navigation/Pagination'
+import MUIAvatar from './components/DataDisplay/Avatar'
+import MUIBadge from './components/DataDisplay/Badge'
+import MUIList from './components/DataDisplay/List'
+import MUIChip from './components/DataDisplay/Chip'
+import MUITooltip from './components/DataDisplay/Tooltip'
+import MUITable from './components/DataDisplay/Table'
 
 function App() {
 
@@ -45,8 +55,20 @@ function App() {
         {/* <MUIAccordion /> */}
 
       {/* Navigation */}
-      {/* <MUILink /> */}
-      <MUIBreakcrumbs />
+        {/* <MUILink /> */}
+        {/* <MUIBreakcrumbs /> */}
+        {/* <MUIDrawer /> */}
+        {/* <MUISpeedDial /> */}
+        {/* <MUIBottomNavigation /> */}
+        {/* <MUIPagination /> */}
+
+      {/* Data Display */}
+      {/* <MUIAvatar /> */}
+      {/* <MUIBadge /> */}
+      {/* <MUIList /> */}
+      {/* <MUIChip /> */}
+      {/* <MUITooltip /> */}
+      <MUITable />
 
     </>
   )
