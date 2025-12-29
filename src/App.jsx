@@ -32,12 +32,16 @@ import MUISnackbar from './components/Feedback/Snackbar'
 import MUIDialog from './components/Feedback/Dialog'
 import MUIProgress from './components/Feedback/Progress'
 import MUISkeleton from './components/Feedback/Skeleton'
+import MyNavbar from './components/Navbar'
 
 function App() {
 
   return (
     <>
-      <div>MI</div>
+      {/* <div>MI</div> */}
+
+      <MyNavbar />
+
       {/* Inputs */}
         {/* <Buttons /> */}
         {/* <TypographyCom /> */}
@@ -73,7 +77,7 @@ function App() {
         {/* <MUIList /> */}
         {/* <MUIChip /> */}
         {/* <MUITooltip /> */}
-        {/* <MUITable /> */}
+        <MUITable />
 
       {/* Feedback */}
         {/* <MUIAlert /> */}
