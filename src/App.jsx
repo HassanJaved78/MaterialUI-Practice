@@ -27,6 +27,11 @@ import MUIList from './components/DataDisplay/List'
 import MUIChip from './components/DataDisplay/Chip'
 import MUITooltip from './components/DataDisplay/Tooltip'
 import MUITable from './components/DataDisplay/Table'
+import MUIAlert from './components/Feedback/Alert'
+import MUISnackbar from './components/Feedback/Snackbar'
+import MUIDialog from './components/Feedback/Dialog'
+import MUIProgress from './components/Feedback/Progress'
+import MUISkeleton from './components/Feedback/Skeleton'
 
 function App() {
 
@@ -63,12 +68,19 @@ function App() {
         {/* <MUIPagination /> */}
 
       {/* Data Display */}
-      {/* <MUIAvatar /> */}
-      {/* <MUIBadge /> */}
-      {/* <MUIList /> */}
-      {/* <MUIChip /> */}
-      {/* <MUITooltip /> */}
-      <MUITable />
+        {/* <MUIAvatar /> */}
+        {/* <MUIBadge /> */}
+        {/* <MUIList /> */}
+        {/* <MUIChip /> */}
+        {/* <MUITooltip /> */}
+        {/* <MUITable /> */}
+
+      {/* Feedback */}
+        {/* <MUIAlert /> */}
+        {/* <MUISnackbar /> */}
+        {/* <MUIDialog /> */}
+        {/* <MUIProgress /> */}
+        {/* <MUISkeleton /> */}
 
     </>
   )
